@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1d6b1aa-e677-400a-80de-159e596e5352" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="SbtLocalSettings">
@@ -89,23 +91,39 @@
       <option name="project" value="LOCAL" />
       <updated>1584793032434</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added TODO file for reference">
+      <created>1584793174547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584793174547</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added 1.0 TODOs">
+      <created>1584794079222</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584794079222</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating the .gitignore" />
     <MESSAGE value="Adding Gradle files and Idea Project Folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Gradle files and Idea Project Folder" />
+    <MESSAGE value="Added TODO file for reference" />
+    <MESSAGE value="Added 1.0 TODOs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 1.0 TODOs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="441" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584793132910">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="441" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.732@0.0.1366.732" timestamp="1584793132910" />
-    <state x="334" y="0" key="CommitChangelistDialog2" timestamp="1584793032273">
+    <state x="334" y="0" key="CommitChangelistDialog2" timestamp="1584794079101">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="334" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1584793032273" />
+    <state x="334" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1584794079101" />
     <state x="100" y="100" width="1166" height="532" key="DiffContextDialog" timestamp="1584793155733">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
@@ -118,17 +136,21 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="538" y="285" key="VCS.ChangelistChooser/0.0.1366.732@0.0.1366.732" timestamp="1584792893476" />
-    <state x="283" y="102" key="Vcs.Push.Dialog.v2" timestamp="1584793037497">
+    <state x="283" y="102" key="Vcs.Push.Dialog.v2" timestamp="1584794081321">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="283" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1584793037497" />
+    <state x="283" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1584794081321" />
+    <state x="485" y="29" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584793647131">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="485" y="29" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.732@0.0.1366.732" timestamp="1584793647131" />
     <state x="364" y="113" width="637" height="506" key="find.popup" timestamp="1584792956704">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="364" y="113" width="637" height="506" key="find.popup/0.0.1366.732@0.0.1366.732" timestamp="1584792956704" />
-    <state x="98" y="0" key="new project wizard" timestamp="1584792269095">
+    <state x="98" y="0" key="new project wizard" timestamp="1584794888280">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="98" y="0" key="new project wizard/0.0.1366.732@0.0.1366.732" timestamp="1584792269095" />
+    <state x="98" y="0" key="new project wizard/0.0.1366.732@0.0.1366.732" timestamp="1584794888280" />
   </component>
 </project>
