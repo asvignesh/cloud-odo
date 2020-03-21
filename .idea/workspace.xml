@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1d6b1aa-e677-400a-80de-159e596e5352" name="Default Changelist" comment="Adding Gradle files and Idea Project Folder">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-scheduler/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-ui/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZRBluwkMQUnH9fMi58C6qmiVsE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../snappoint" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1d6b1aa-e677-400a-80de-159e596e5352" name="Default Changelist" comment="" />
+      <created>1584792180795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584792180795</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Updating the .gitignore">
+      <created>1584792604118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584792604118</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updating the .gitignore">
+      <created>1584792709834</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584792709834</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updating the .gitignore" />
+    <MESSAGE value="Adding Gradle files and Idea Project Folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Gradle files and Idea Project Folder" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="334" y="0" key="CommitChangelistDialog2" timestamp="1584792935870">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="334" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1584792935870" />
+    <state x="192" y="1" key="SettingsEditor" timestamp="1584793006175">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="192" y="1" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1584793006175" />
+    <state x="538" y="285" key="VCS.ChangelistChooser" timestamp="1584792893476">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="538" y="285" key="VCS.ChangelistChooser/0.0.1366.732@0.0.1366.732" timestamp="1584792893476" />
+    <state x="283" y="102" key="Vcs.Push.Dialog.v2" timestamp="1584792713595">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="283" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1584792713595" />
+    <state x="364" y="113" width="637" height="506" key="find.popup" timestamp="1584792956704">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="364" y="113" width="637" height="506" key="find.popup/0.0.1366.732@0.0.1366.732" timestamp="1584792956704" />
+    <state x="98" y="0" key="new project wizard" timestamp="1584792269095">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="98" y="0" key="new project wizard/0.0.1366.732@0.0.1366.732" timestamp="1584792269095" />
+  </component>
+</project>

@@ -1,0 +1,4 @@
+rootProject.name = 'cloud-odo-root'
+include 'cloud-odo-ui'
+include 'cloud-odo-scheduler'
+
