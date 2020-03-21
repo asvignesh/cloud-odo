@@ -1,0 +1,32 @@
+Application
+
+
+Template Building
+Ubuntu 18.04
+Maria installation
+
+
+
+Cloud:
+ - Register
+ - - Cloud Provider name
+ - - Host / Identifier
+ - - Creds
+
+Template
+ - Register :
+  - - Cloud
+  - - Name
+  - - App Installer
+  - - App version
+  - - Conf File location
+  - - Creds
+
+
+ Provisioning:
+ - Cloud
+ - Template Name
+ - Data Volume Size
+ -
+ - Backup Schedule
+ -
