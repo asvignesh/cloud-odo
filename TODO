@@ -1,32 +1,40 @@
-Application
-
-
 Template Building
-Ubuntu 18.04
-Maria installation
+- Ubuntu 18.04
+- Maria installation
+#------------------------------#
 
+CloudProviders
+- Identifier - UUID
+- Name ( AWS / KVM / VMWARE )
+- Credential JSON
 
-
-Cloud:
- - Register
- - - Cloud Provider name
- - - Host / Identifier
- - - Creds
+Cloud
+- CloudProviders.Name
+- Name
+- Host
+- Credential JSON
 
 Template
- - Register :
-  - - Cloud
-  - - Name
-  - - App Installer
-  - - App version
-  - - Conf File location
-  - - Creds
+- CloudProviders.Name
+- Cloud.Name
+- Name
+- Application
+- version
+- configuration
 
+ProtectionPolicy
+- Name
+- Scheduler
+- Retention
 
- Provisioning:
- - Cloud
- - Template Name
- - Data Volume Size
- -
- - Backup Schedule
- -
+Datavolume
+- Name
+- Type
+- Size
+
+Provisioning
+- CloudProviders.Name
+- Cloud.Name
+- Template.Name
+- Datavolume.Name
+- ProtectionPolicy.Name
