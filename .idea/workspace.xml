@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1d6b1aa-e677-400a-80de-159e596e5352" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/yavijava_6_0_05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-configclientdemo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-configclientdemo/src/main/java/io/cloudodo/configclient/ClientBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-configclientdemo/src/main/java/io/cloudodo/configclient/ConfigClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-configclientdemo/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-configserver/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-configserver/build/resources/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-configserver/src/main/java/io/cloudodo/configserver/ConfigurationServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-configserver/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-configserver/src/main/resources/conf/test-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-vmwarewrapper/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-vmwarewrapper/src/main/java/io/cloudodo/vmwareobject/EsxiHostManagedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-vmwarewrapper/src/main/java/io/cloudodo/vmwareobject/VCenterConnectionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-vmwarewrapper/src/main/java/io/cloudodo/vmwareobject/VirtualMachineManagedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-odo-vmwarewrapper/src/main/java/io/cloudodo/vmwarewrapper/managedobjects/BaseManagedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +36,33 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cloud-odo-root" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -50,7 +95,71 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-odo-vmwarewrapper/lib" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloud-odo-vmwarewrapper/lib" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloud-odo-configserver/src/main/resources/conf" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.cloud-odo-root [dependencies]">
+    <configuration name="ConfigClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.cloudodo.configclient.ConfigClientApplication" />
+      <module name="cloud-odo-root.cloud-odo-configclientdemo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cloudodo.configclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigurationServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.cloudodo.configserver.ConfigurationServiceApplication" />
+      <module name="cloud-odo-root.cloud-odo-configserver.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cloudodo.configclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-odo-root [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.cloud-odo-root [dependencies]" />
+        <item itemvalue="Application.ConfigClientApplication" />
+        <item itemvalue="Application.ConfigurationServiceApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -105,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584794079222</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added SpringBoot MongoDB database project">
+      <created>1584795031813</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584795031813</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -113,25 +229,74 @@
     <MESSAGE value="Adding Gradle files and Idea Project Folder" />
     <MESSAGE value="Added TODO file for reference" />
     <MESSAGE value="Added 1.0 TODOs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 1.0 TODOs" />
+    <MESSAGE value="Added SpringBoot MongoDB database project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SpringBoot MongoDB database project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="441" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584793132910">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="441" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.732@0.0.1366.732" timestamp="1584793132910" />
-    <state x="334" y="0" key="CommitChangelistDialog2" timestamp="1584794079101">
+    <state x="491" y="53" width="374" height="625" key="#com.intellij.ide.util.MemberChooser" timestamp="1585580746666">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="334" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1584794079101" />
-    <state x="100" y="100" width="1166" height="532" key="DiffContextDialog" timestamp="1584793155733">
+    <state x="491" y="53" width="374" height="625" key="#com.intellij.ide.util.MemberChooser/0.0.1366.732@0.0.1366.732" timestamp="1585580746666" />
+    <state x="446" y="113" key="#xdebugger.evaluate" timestamp="1584884869521">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="100" y="100" width="1166" height="532" key="DiffContextDialog/0.0.1366.732@0.0.1366.732" timestamp="1584793155733" />
-    <state x="192" y="1" key="SettingsEditor" timestamp="1584793006175">
+    <state x="446" y="113" key="#xdebugger.evaluate/0.0.1366.732@0.0.1366.732" timestamp="1584884869521" />
+    <state x="334" y="0" key="CommitChangelistDialog2" timestamp="1584795031650">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="192" y="1" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1584793006175" />
+    <state x="334" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1584795031650" />
+    <state x="100" y="100" width="1166" height="532" key="DiffContextDialog" timestamp="1585582952333">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="100" y="100" width="1166" height="532" key="DiffContextDialog/0.0.1366.732@0.0.1366.732" timestamp="1585582952333" />
+    <state x="471" y="85" key="FileChooserDialogImpl" timestamp="1585190245409">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="471" y="85" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1585190245409" />
+    <state width="1324" height="137" key="GridCell.Tab.0.bottom" timestamp="1585579662832">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1324" height="137" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1585579662832" />
+    <state width="1324" height="137" key="GridCell.Tab.0.center" timestamp="1585579662830">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1324" height="137" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1585579662830" />
+    <state width="1324" height="137" key="GridCell.Tab.0.left" timestamp="1585579662830">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1324" height="137" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1585579662830" />
+    <state width="1324" height="137" key="GridCell.Tab.0.right" timestamp="1585579662831">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1324" height="137" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1585579662831" />
+    <state width="1324" height="216" key="GridCell.Tab.1.bottom" timestamp="1584891267649">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1324" height="216" key="GridCell.Tab.1.bottom/0.0.1366.732@0.0.1366.732" timestamp="1584891267649" />
+    <state width="1324" height="216" key="GridCell.Tab.1.center" timestamp="1584891267649">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1324" height="216" key="GridCell.Tab.1.center/0.0.1366.732@0.0.1366.732" timestamp="1584891267649" />
+    <state width="1324" height="216" key="GridCell.Tab.1.left" timestamp="1584891267648">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1324" height="216" key="GridCell.Tab.1.left/0.0.1366.732@0.0.1366.732" timestamp="1584891267648" />
+    <state width="1324" height="216" key="GridCell.Tab.1.right" timestamp="1584891267649">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1324" height="216" key="GridCell.Tab.1.right/0.0.1366.732@0.0.1366.732" timestamp="1584891267649" />
+    <state x="355" y="67" key="NewModule_or_Project.wizard" timestamp="1585190247626">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="355" y="67" key="NewModule_or_Project.wizard/0.0.1366.732@0.0.1366.732" timestamp="1585190247626" />
+    <state x="192" y="1" key="SettingsEditor" timestamp="1585579259609">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="192" y="1" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1585579259609" />
     <state x="538" y="285" key="VCS.ChangelistChooser" timestamp="1584792893476">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
@@ -140,17 +305,46 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="283" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1584794081321" />
-    <state x="485" y="29" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584793647131">
+    <state x="372" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1584884248957">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="485" y="29" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.732@0.0.1366.732" timestamp="1584793647131" />
-    <state x="364" y="113" width="637" height="506" key="find.popup" timestamp="1584792956704">
+    <state x="372" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1584884248957" />
+    <state x="485" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585578376393">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="364" y="113" width="637" height="506" key="find.popup/0.0.1366.732@0.0.1366.732" timestamp="1584792956704" />
-    <state x="98" y="0" key="new project wizard" timestamp="1584794888280">
+    <state x="485" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.732@0.0.1366.732" timestamp="1585578376393" />
+    <state x="364" y="113" width="831" height="506" key="find.popup" timestamp="1585190007971">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="98" y="0" key="new project wizard/0.0.1366.732@0.0.1366.732" timestamp="1584794888280" />
+    <state x="364" y="113" width="831" height="506" key="find.popup/0.0.1366.732@0.0.1366.732" timestamp="1585190007971" />
+    <state x="197" y="1" width="1169" height="731" key="new project wizard" timestamp="1585576715327">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="197" y="1" width="1169" height="731" key="new project wizard/0.0.1366.732@0.0.1366.732" timestamp="1585576715327" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/cloud-odo-configclientdemo/src/main/java/io/cloudodo/configclient/ClientBean.java</url>
+          <line>9</line>
+          <properties field="k1" class="io.cloudodo.configclient.ClientBean" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/cloud-odo-configclientdemo/src/main/java/io/cloudodo/configclient/ClientBean.java</url>
+          <line>16</line>
+          <properties class="io.cloudodo.configclient.ClientBean" method="postConstruct">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-odo-configclientdemo/src/main/java/io/cloudodo/configclient/ClientBean.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

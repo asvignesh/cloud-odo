@@ -2,4 +2,7 @@ rootProject.name = 'cloud-odo-root'
 include 'cloud-odo-ui'
 include 'cloud-odo-scheduler'
 include 'cloud-odo-database'
+include 'cloud-odo-configserver'
+include 'cloud-odo-configclientdemo'
+include 'cloud-odo-vmwarewrapper'
 

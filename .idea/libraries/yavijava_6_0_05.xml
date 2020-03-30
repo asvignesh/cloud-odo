@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="yavijava-6.0.05">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/cloud-odo-vmwarewrapper/lib/yavijava-6.0.05.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

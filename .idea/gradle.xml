@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -8,9 +9,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/cloud-odo-configclientdemo" />
+            <option value="$PROJECT_DIR$/cloud-odo-configserver" />
             <option value="$PROJECT_DIR$/cloud-odo-database" />
             <option value="$PROJECT_DIR$/cloud-odo-scheduler" />
             <option value="$PROJECT_DIR$/cloud-odo-ui" />
+            <option value="$PROJECT_DIR$/cloud-odo-vmwarewrapper" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

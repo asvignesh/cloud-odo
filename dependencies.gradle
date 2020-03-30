@@ -1,0 +1,78 @@
+ext {
+    awssdkversion = '1.11.699'
+    logversion = '2.11.2'
+
+    jackson_libraries = [
+            core       : "com.fasterxml.jackson.core:jackson-core:2.9.0",
+            databind   : "com.fasterxml.jackson.core:jackson-databind:2.9.0",
+            annotations: "com.fasterxml.jackson.core:jackson-annotations:2.9.0"
+    ]
+
+    vmware_dependencies = [
+            yavijava: "com.toastcoders:yavijava:6.0.05",
+            dom4j   : "dom4j:dom4j:1.6.1"
+    ]
+    aws_libraries = [
+            awsEc2       : "com.amazonaws:aws-java-sdk-ec2:" + awssdkversion,
+            awsSts       : "com.amazonaws:aws-java-sdk-sts:" + awssdkversion,
+            awsCloudwatch: "com.amazonaws:aws-java-sdk-cloudwatch:" + awssdkversion,
+            awsPricing   : "com.amazonaws:aws-java-sdk-pricing:" + awssdkversion,
+            awsS3        : "com.amazonaws:aws-java-sdk-s3:" + awssdkversion,
+            awsSes       : "com.amazonaws:aws-java-sdk-ses:" + awssdkversion,
+            awsRds       : "com.amazonaws:aws-java-sdk-rds:" + awssdkversion
+    ]
+
+    google_libraries = [
+            google_http_client: "com.google.http-client:google-http-client:1.23.0",
+            googleGauva       : "com.google.guava:guava:12.0",
+            guice             : "com.google.inject:guice:4.2.2"
+    ]
+
+    apache_libraries = [
+            httpclient         : "org.apache.httpcomponents:httpclient:4.5.5",
+            httpcore           : "org.apache.httpcomponents:httpcore:4.4.9",
+            apache_daemon      : "commons-daemon:commons-daemon:1.0.10",
+            commonsio          : "org.apache.commons:commons-io:1.3.2",
+            apacheVelocity     : "org.apache.velocity:velocity:1.6.2",
+            commons_lang       : "org.apache.commons:commons-lang3:3.9",
+
+            log4j_1_2_api      : "org.apache.logging.log4j:log4j-1.2-api:" + logversion,
+            log4j_slf4j_binding: "org.apache.logging.log4j:log4j-slf4j-impl:" + logversion,
+            log4j2_api         : "org.apache.logging.log4j:log4j-api:" + logversion,
+            log4j2_core        : "org.apache.logging.log4j:log4j-core:" + logversion
+    ]
+
+    spring_libraries = [
+            spring_web_starter: "org.springframework.boot:spring-boot-starter-web:2.2.2.RELEASE",
+            angularjs         : "org.webjars:angularjs:1.4.8",
+            bootstrap         : "org.webjars:bootstrap:3.3.7",
+    ]
+    swagger = [
+            swaggerAnnotations: "io.swagger:swagger-annotations:1.5.8"
+
+    ]
+    libraries = [
+            junit             : "junit:junit:4.12:test",
+            junit5            : "org.junit.jupiter:junit-jupiter-engine:5.5.2:test",
+            rabbitmq          : "com.rabbitmq:amqp-client:5.7.0",
+            commonlang        : "commons-lang:commons-lang:2.6",
+            commonCodec       : "commons-codec:commons-codec:1.9",
+            javaxannotation   : "javax.annotation:javax.annotation-api:1.3.2",
+            jodahExpiringmap  : "net.jodah:expiringmap:0.3.1",
+            commonsNet        : "commons-net:commons-net:3.6",
+            jsch              : "com.jcraft:jsch:0.1.54",
+            JCifs             : "jcifs:jcifs:1.3.17",
+            quartz            : "org.quartz-scheduler:quartz:2.2.1",
+            mysqlConnector    : "mysql:mysql-connector-java:5.1.35",
+            javaxwsrs         : "javax.ws.rs:javax.ws.rs-api:2.1.1",
+            sql20             : "org.sql2o:sql2o:1.6.0",
+            swaggerAnnotations: "io.swagger:swagger-annotations:1.5.8",
+            lombok            : "org.projectlombok:lombok:1.18.10",
+            blade             : "com.bladejava:blade-asm:0.0.4",
+            jodaTime          : "joda-time:joda-time:2.10.5",
+            javaPersistence   : "javax.persistence:javax.persistence-api:2.2",
+            failsafe          : "net.jodah:failsafe:2.3.1",
+            jPowerShell       : "com.profesorfalken:jPowerShell:2.1",
+            json              : "org.json:json:20160810"
+    ]
+}

@@ -1,3 +1,6 @@
+buildscript {
+    apply from: 'dependencies.gradle'
+}
 plugins {
     id 'java'
 }

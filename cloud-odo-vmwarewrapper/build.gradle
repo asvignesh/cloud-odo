@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'io.cloud-odo'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+//    implementation jackson_libraries.core
+//    implementation jackson_libraries.databind
+//    implementation jackson_libraries.annotations
+    vmware_dependencies.dom4j
+    vmware_dependencies.yavijava
+    compileOnly libraries.lombok
+    annotationProcessor libraries.lombok
+//    implementation google_libraries.googleGauva
+//    implementation apache_libraries.commons_lang
+//    implementation libraries.commonlang
+}
