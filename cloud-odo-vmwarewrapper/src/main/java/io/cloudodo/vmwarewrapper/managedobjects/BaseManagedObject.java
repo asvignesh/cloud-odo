@@ -2,7 +2,10 @@ package io.cloudodo.vmwarewrapper.managedobjects;
 
 import com.vmware.vim25.mo.Folder;
 import com.vmware.vim25.mo.ServiceInstance;
-import io.cloudodo.vmwareobject.VCenterConnectionConfig;
+import com.vmware.vim25.mo.Task;
+import io.cloudodo.vmwarewrapper.exception.VMwareMOExcpetion;
+import io.cloudodo.vmwarewrapper.vmwareobject.ErrorCode;
+import io.cloudodo.vmwarewrapper.vmwareobject.VCenterConnectionConfig;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.rmi.RemoteException;
@@ -33,4 +36,13 @@ public class BaseManagedObject {
     return serviceInstance.getRootFolder();
   }
 
+  protected void waitfortaskHandleError(Task task, ErrorCode errorCode)
+      throws RemoteException, InterruptedException, VMwareMOExcpetion {
+    String status = task.waitForTask();
+    if (!status.equals("success")) {
+      String message = task.getTaskInfo().getError()
+          .getLocalizedMessage();
+      throw new VMwareMOExcpetion(errorCode, message);
+    }
+  }
 }
