@@ -1,4 +1,4 @@
-package io.cloudodo.vmwareobject;
+package io.cloudodo.vmwarewrapper.vmwareobject;
 
 import lombok.Data;
 
