@@ -1,10 +1,10 @@
-package io.cloudodo.vmwareobject;
+package io.cloudodo.vmwarewrapper.managedobjects;
 
 import com.vmware.vim25.ManagedObjectReference;
 import com.vmware.vim25.mo.HostSystem;
 import com.vmware.vim25.mo.ServiceInstance;
 import com.vmware.vim25.mo.util.MorUtil;
-import io.cloudodo.vmwarewrapper.managedobjects.BaseManagedObject;
+import io.cloudodo.vmwarewrapper.vmwareobject.VCenterConnectionConfig;
 import java.net.MalformedURLException;
 import java.rmi.RemoteException;
 
